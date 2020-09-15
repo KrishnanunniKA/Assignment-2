@@ -6,6 +6,6 @@ for i in range(n):
     A.append(int(input()))
 for j in range(n):
     if A[j]>0:
-        B.append(k)
+        B.append(A[j])
 print(A)
 print(B)
